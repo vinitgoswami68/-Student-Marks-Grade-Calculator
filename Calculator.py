@@ -2,43 +2,43 @@
 name = input("enter student name: ")
 
 #marks input
- maths = float(input("Enter maths marks: "))
+maths = float(input("Enter maths marks: "))
 
- physics = float(input(Enter physics marks: "))    
+physics = float(input("Enter physics marks: "))    
 
- English = float(input(Enter English marks: "))
+English = float(input("Enter English marks: "))
   
- programming = float(input(Enter programming marks: "))
+programming = float(input("Enter programming marks: "))
                            
- Electronics = float(input(Enter Electronics marks: "))
+Electronics = float(input("Enter Electronics marks: "))
 
 
  #All subject marks add
-  total = maths + physics + English + programming + Electonics
+total = maths + physics + English + programming + Electronics
 
 
 
 #find percentage
-percentage = total/5
+percentage = total / 5
 
 #percentage according grade
 if percentage >=90:
-  grade = "A+"
+    grade = "A+"
 
 elif percentage >=80:
-   grade = "A"
+    grade = "A"
 
 elif percentage >=70:
-   grade = "B"
+    grade = "B"
 
 elif percentage >=60:
-   grade = "C"
+    grade = "C"
 
 elif percentage >=50:
-   grade = "D"
+    grade = "D"
 
 else:
-  grade = "F"
+    grade = "F"
 
 
 #Result heading print
@@ -56,12 +56,6 @@ print("Grade:", grade)
 
 #Check FAIL PASS
 if percentage >=40:
-   print("Result: PASS")
+    print("Result: PASS")
 else:
-  print("Result: FAIL")
-
-
- 
-
- 
- 
+    print("Result: FAIL")
